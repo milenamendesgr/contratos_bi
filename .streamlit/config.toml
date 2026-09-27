@@ -1,0 +1,23 @@
+# ==================================================
+# CONFIGURAÇÃO STREAMLIT - DASHBOARD CONTRATOS CONTRATOS BI
+# ==================================================
+# IMPORTANTE: Tema BRANCO obrigatório
+# Paleta de cores padrão CONTRATOS BI
+
+[theme]
+base = "light"
+primaryColor = "#004B23"              # Verde primário CONTRATOS BI
+backgroundColor = "#FFFFFF"           # Fundo branco OBRIGATÓRIO
+secondaryBackgroundColor = "#F8F9FA"  # Fundo secundário suave
+textColor = "#1C1C1C"                 # Texto principal escuro
+font = "sans serif"
+
+[server]
+headless = true
+port = 8516
+address = "127.0.0.1"
+enableCORS = true
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false

@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+config/local_settings.py
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+*.zip
+*.log
+data/*.db
+data/*.db-wal
+data/*.db-shm

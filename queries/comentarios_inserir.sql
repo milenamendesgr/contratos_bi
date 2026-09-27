@@ -1,0 +1,33 @@
+INSERT INTO contrato_comentario (
+    id_comentario,
+    versao,
+    versao_atual,
+    filial,
+    contrato,
+    revisao_contrato,
+    numero_medicao,
+    comentario,
+    usuario_criacao,
+    data_criacao,
+    usuario_alteracao,
+    data_alteracao,
+    excluido,
+    usuario_exclusao,
+    data_exclusao
+) VALUES (
+    :id_comentario,
+    :versao,
+    1,
+    :filial,
+    :contrato,
+    :revisao_contrato,
+    :numero_medicao,
+    :comentario,
+    :usuario_criacao,
+    :data_criacao,
+    :usuario_alteracao,
+    :data_alteracao,
+    :excluido,
+    :usuario_exclusao,
+    :data_exclusao
+);
