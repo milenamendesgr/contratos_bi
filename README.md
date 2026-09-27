@@ -16,7 +16,7 @@ Dashboard em Python, Streamlit, Pandas e Plotly para analisar contratos, vigênc
 | Comentários | SQLite local `data/demo_comentarios.db` | SQLite configurável, padrão `data/contratos_comentarios.db` |
 | Credenciais privadas | Não são necessárias | Configuração local ou variáveis de ambiente |
 
-A pasta recebida não continha `config/local_settings.py`, `.env`, `.streamlit/secrets.toml`, bancos de dados ou histórico `.git`. Não foi encontrado endpoint empresarial fixo no código. Os SQLs preservam nomes de tabelas e regras da integração Protheus; eles não contêm os registros de um banco e não abrem uma conexão sozinhos.
+Os SQLs preservam nomes de tabelas e regras da integração Protheus; eles não contêm os registros de um banco e não abrem uma conexão sozinhos.
 
 O servidor escuta `127.0.0.1:8516`, com CORS e proteção XSRF habilitados. A coleta de estatísticas do Streamlit está desativada em `.streamlit/config.toml`. A instalação das dependências usa a rede e o índice configurado no pip. Os testes bloqueiam HTTP via Requests durante a navegação; não equivalem a uma captura de todo o tráfego do navegador, das dependências e do sistema operacional.
 
